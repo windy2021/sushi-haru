@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sushi-haru/static/css/main.010a98b1.css",
+    "main.js": "/sushi-haru/static/js/main.c9b1a4e4.js",
+    "index.html": "/sushi-haru/index.html",
+    "main.010a98b1.css.map": "/sushi-haru/static/css/main.010a98b1.css.map",
+    "main.c9b1a4e4.js.map": "/sushi-haru/static/js/main.c9b1a4e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.010a98b1.css",
+    "static/js/main.c9b1a4e4.js"
+  ]
+}
