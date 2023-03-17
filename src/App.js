@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/NavBar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/Home";
 import Menu from "./components/pages/Menu";
@@ -16,10 +16,9 @@ function App() {
         <NavBar></NavBar>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/sushi-haru" element={<Home />}></Route>
-          <Route path="/sushi-haru/menu" element={<Menu />}></Route>
-          <Route path="/sushi-haru/story" element={<Story />}></Route>
-          <Route path="/sushi-haru/sign-up" element={<SignUp />}></Route>
+          <Route path="/menu" element={<Menu />}></Route>
+          <Route path="/story" element={<Story />}></Route>
+          <Route path="/sign-up" element={<SignUp />}></Route>
         </Routes>
         <Footer/>
       </Router>
