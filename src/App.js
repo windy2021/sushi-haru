@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/sushi-haru" element={<Home />}></Route>
-          <Route path="/menu" element={<Menu />}></Route>
-          <Route path="/story" element={<Story />}></Route>
-          <Route path="/sign-up" element={<SignUp />}></Route>
+          <Route path="/sushi-haru/menu" element={<Menu />}></Route>
+          <Route path="/sushi-haru/story" element={<Story />}></Route>
+          <Route path="/sushi-haru/sign-up" element={<SignUp />}></Route>
         </Routes>
         <Footer/>
       </Router>
