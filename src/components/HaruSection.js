@@ -8,11 +8,11 @@ function HaruSection() {
     <div className="hero-container" style={{background: "url('./images/img-20.jpg') center center/cover no-repeat"}}>
       {/* <video src="/videos/cherry-blossom-84874.mp4" autoPlay loop muted></video> */}
       <h1>
-        HARU SUSHI<i className="fa-solid fa-bowl-rice fa-bowl-rice-haru"></i>
+        HARU <i className="fa-solid fa-bowl-rice fa-bowl-rice-haru"></i> SUSHI
       </h1>
       <p className="second--line">HOMEMADE</p>
       <p className="second--line">SUSHI AND GYOZA</p>
-      <p>By Fransiska Carolina</p>
+      <p>By Fransisca Carolina</p>
       
       <div className="hero-btns">
         <Button
