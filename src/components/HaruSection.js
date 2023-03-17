@@ -34,10 +34,10 @@ function HaruSection() {
         </Button>
       </div>
       <p style={{ fontFamily: "sans-serif", fontSize: "20px" }}>
-        Website by Felcia{" "}
+        Website by FeLcia{" "}
       </p>
       <p style={{ fontFamily: "sans-serif", fontSize: "15px" }}>
-        Build with React and Bootstrap
+        Built with React and Bootstrap
       </p>
     </div>
   );
