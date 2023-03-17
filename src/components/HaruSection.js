@@ -5,7 +5,7 @@ import "./HaruSection.css";
 
 function HaruSection() {
   return (
-    <div className="hero-container" style={{background: "url('./images/img-20.jpg') center center/cover no-repeat"}}>
+    <div className="hero-container" style={{background: "url('sushi-haru/images/img-20.jpg') center center/cover no-repeat"}}>
       {/* <video src="/videos/cherry-blossom-84874.mp4" autoPlay loop muted></video> */}
       <h1>
         HARU SUSHI<i className="fa-solid fa-bowl-rice fa-bowl-rice-haru"></i>

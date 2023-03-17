@@ -16,21 +16,21 @@ function RicePaperRollCards() {
         </h5>
         <div className="row">
           <CardBootstrap
-            src="./images/sushi_haru/rice_paper_roll_1.jpg"
+            src="sushi-haru/images/rice_paper_roll_1.jpg"
             title="IDR 45k"
             subtitle="SALMON RICE PAPER ROLL"
             text="Cooked salmon, lettuce, cucumber, carrot, pickled red cabbage, red paprika, avocado w/ roasted sesame dressing"
             width="18rem"
           ></CardBootstrap>
           <CardBootstrap
-            src="./images/sushi_haru/rice_paper_roll_2.jpg"
+            src="sushi-haru/images/rice_paper_roll_2.jpg"
             title="IDR 42k"
             subtitle="CHICKEN MAYO RICE PAPER ROLL"
             text="Cooked chiken mayo, lettuce, cucumber, carrot, pickled red cabbage, avocado w/ sweet sour chilli dressing"
             width="18rem"
           ></CardBootstrap>
           <CardBootstrap
-            src="./images/sushi_haru/rice_paper_roll_3.jpg"
+            src="sushi-haru/images/rice_paper_roll_3.jpg"
             title="IDR 40k"
             subtitle="TUNA RICE PAPER ROLL"
             text="Cooked tuna, lettuce, cucumber, carrot, pickled red cabbage, avocado w/ roasted sesame dressing"
