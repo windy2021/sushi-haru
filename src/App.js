@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/NavBar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import Home from "./components/pages/Home";
+import Menu from "./components/pages/Menu";
+import Story from "./components/pages/Story";
+import SignUp from "./components/pages/SignUp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <video src="/videos/cherry-blossom-84874.mp4" autoPlay loop muted></video> */}
+      <Router>
+        <NavBar></NavBar>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/menu" element={<Menu />}></Route>
+          <Route path="/story" element={<Story />}></Route>
+          <Route path="/sign-up" element={<SignUp />}></Route>
+        </Routes>
+        <Footer/>
+      </Router>
+    </>
   );
 }
 

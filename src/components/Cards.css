@@ -1,0 +1,13 @@
+.page-title:after {
+  content: "";
+  width: 129px;
+  height: 4px;
+  background: #b11919;
+  display: block;
+  margin: 19px 0;
+}
+
+.page-title.text-center:after {
+  margin-left: auto;
+  margin-right: auto;
+}
