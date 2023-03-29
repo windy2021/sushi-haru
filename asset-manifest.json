@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sushi-haru/static/css/main.3ef87c84.css",
-    "main.js": "/sushi-haru/static/js/main.a6cffbaf.js",
+    "main.css": "/sushi-haru/static/css/main.4ea93cc0.css",
+    "main.js": "/sushi-haru/static/js/main.fa74cd90.js",
     "index.html": "/sushi-haru/index.html",
-    "main.3ef87c84.css.map": "/sushi-haru/static/css/main.3ef87c84.css.map",
-    "main.a6cffbaf.js.map": "/sushi-haru/static/js/main.a6cffbaf.js.map"
+    "main.4ea93cc0.css.map": "/sushi-haru/static/css/main.4ea93cc0.css.map",
+    "main.fa74cd90.js.map": "/sushi-haru/static/js/main.fa74cd90.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ef87c84.css",
-    "static/js/main.a6cffbaf.js"
+    "static/css/main.4ea93cc0.css",
+    "static/js/main.fa74cd90.js"
   ]
 }
