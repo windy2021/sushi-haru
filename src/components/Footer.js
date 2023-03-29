@@ -6,14 +6,9 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="social-media">
-        <div className="social-media-wrap">
-          <div className="footer-logo">
-            <Link to="/" className="social-logo">
-              HARU
-              <i className="fa-solid fa-bowl-rice fa-bowl-rice-nav_s" />
-            </Link>
-          </div>
-          <small className="website-rights">HARU © 2023</small>
+        <div className="new_social_container">
+          <small className="website-rights">Website by Felcia - Built with React and Bootstrap</small>
+          <small className="website-rights_haru">- HARU © 2023 -</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"

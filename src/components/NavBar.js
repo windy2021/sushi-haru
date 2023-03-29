@@ -61,7 +61,7 @@ function NavBar() {
                 className="nav-links_s"
                 onClick={closeMobileMenu}
               >
-                Story
+                Our Story
               </Link>
             </li>
             <li>

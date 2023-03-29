@@ -12,7 +12,6 @@ function HaruSection() {
       </h1>
       <p className="second--line">HOMEMADE</p>
       <p className="second--line">SUSHI AND GYOZA</p>
-      <p>By Fransisca Carolina</p>
       
       <div className="hero-btns">
         <Button
@@ -33,12 +32,7 @@ function HaruSection() {
           <i className="far fa-play-circle"></i>
         </Button>
       </div>
-      <p style={{ fontFamily: "sans-serif", fontSize: "20px" }}>
-        Website by FeLcia{" "}
-      </p>
-      <p style={{ fontFamily: "sans-serif", fontSize: "15px" }}>
-        Built with React and Bootstrap
-      </p>
+
     </div>
   );
 }
